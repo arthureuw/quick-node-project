@@ -1,0 +1,26 @@
+{
+  "name": "quick-node-project",
+  "version": "1.0.0",
+  "description": "NodeJS, ES6 and a base structure that I use to quickly start building API using yarn",
+  "main": "server.js",
+  "repository": "git@github.com:arthureuw/quick-node-project.git",
+  "author": "Arthur <arthureuw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon --exec babel-node src/server.js --inspect",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "winston": "^3.3.3"
+  }
+}
